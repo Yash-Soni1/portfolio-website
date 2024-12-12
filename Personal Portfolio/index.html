@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website - YASH SONI DS - A 005</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!--Home Section-->
+<div class="web">
+    <div class="header">
+        <!--LOGO SECTION -->
+        <div class="header-logo">
+            <h1>Yash<span>.</span></h1>
+        </div>
+        <!--LINK SECTION -->
+        <div class="header-content" id="sidemenu">
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+        </div>
+        <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+    </div>
+    <div class="header-text">
+        <p>ML Enthusiast & Frontend Developer.</p>
+        <h1>Hi, I am <span>Yash Soni</span> from SOCCA. <br>Bachelor of Science in Data Science and AI/ML Sem-1.</h1>
+    </div>
+    <!--About Section-->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="image/img1.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, I am Yash Soni, a student at Silver Oak University currently studying BSc Data Science and currently in semester 1. 
+                        I like to expereince and explore new types of coding language and also like to make websites to elevate my knowledge of Full-Stack 
+                        Development and learn more about Machine Learning and Artificial Intelliigence. </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Complex Programming</span><br>Includes Java C and Python</li>
+                            <li><span>Web Development</span><br>Frontend and Backend Developer.</li>
+                            <li><span>App Development</span><br>Building Android/ios Apps.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023-Current</span><br>Web Designing and Technology Faculty.</li>
+                            <li><span>2021- 2023</span><br>HTML practical and theory.</li>
+                            <li><span>2019-2021</span><br>UI/UX Design Fair Participant.</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>August (2024) - Current</span><br>Bachelor's of Science in Data Science at Silver Oak University</li>
+                            <li><span>2023-2024</span><br>12th HSC - 77%</li>
+                            <li><span>2021-2022</span><br>10th SSC - 74%</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---------Services---------->
+
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2> Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas,
+                         lea animi sequi saepe. auefba akugef iuuq9piuhf wotugfbc wieghbf ioegjfb 
+                        weygfwoigf</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2> UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas,
+                         lea animi sequi saepe.auefba akugef iuuq9piuhf wotugfbc wieghbf ioegjfb 
+                         weygfwoigf</p>
+                         <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2> App Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime voluptas,
+                         lea animi sequi saepe.auefba akugef iuuq9piuhf wotugfbc wieghbf ioegjfb 
+                         weygfwoigf</p>
+                         <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!---Portfolio-->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="image/work-img1.png">
+                    <div class="layer">
+                        <h3>Amazon Website</h3>
+                        <p>Clone of Amazon Website. HTML and CSS</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-img2.png">
+                    <div class="layer">
+                        <h3>Netflix Website</h3>
+                        <p>Clone of Netflix Website with a Login Page. HTML, CSS and JavaScript.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="image/work-img3.png">
+                    <div class="layer">
+                        <h3>Coffee Website</h3>
+                        <p>Simple Responsive Coffee Website. HTML and CSS </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See More</a>
+        </div>
+    </div>
+
+    <!--Contact ME-->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-paper-plane"></i> yash2165soni@gmail.com</p>
+                    <p> <i class="fa-solid fa-square-phone"></i> +91 7575007807</p>
+                    <div class="social-icons">
+                        <a href="https://instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="https://linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/Yash-Soni1"><i class="fa-brands fa-github"></i></a>
+                    </div>
+                    <a href="docs/Resume_Yash-1.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your E-mail" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="copyright">
+    <p>Copyright © Yash. Made by Yash - Soni.</p>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+    for(tablink of tablinks) {
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents) {
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemenu.style.right = "0";
+    }
+    function closemenu() {
+        sidemenu.style.right = "-200px";
+    }
+</script>
+  
+  <script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyMv3JuweuAN4YEfUulZXJumzW458WGaCaCtBV7ZyStXx9A2XWfYUVt3ivxWDZ0Hx_7/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent Successfully !"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            }, 5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
